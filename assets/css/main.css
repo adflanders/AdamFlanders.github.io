@@ -2670,10 +2670,10 @@ input, select, textarea {
 		}
 
 		a.image:hover img {
-			-moz-transform: scale(1.05);
-			-webkit-transform: scale(1.05);
-			-ms-transform: scale(1.05);
-			transform: scale(1.05);
+			-moz-transform: scale(1.00);
+			-webkit-transform: scale(1.00);
+			-ms-transform: scale(1.00);
+			transform: scale(1.00);
 		}
 
 /* Actions */
@@ -3406,7 +3406,7 @@ input, select, textarea {
 				-webkit-transform: translateY(2rem);
 				-ms-transform: translateY(2rem);
 				transform: translateY(2rem);
-				opacity: 0;
+				opacity: 1;
 				visibility: hidden;
 			}
 
@@ -3420,8 +3420,8 @@ input, select, textarea {
 			-webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
 			-ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
 			transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
-			opacity: 0;
-			visibility: hidden;
+			opacity: 1;
+			visibility: visible;
 		}
 
 			#intro.hidden + #header .logo {
@@ -3438,7 +3438,7 @@ input, select, textarea {
 			-webkit-transform: translateY(2rem);
 			-ms-transform: translateY(2rem);
 			transform: translateY(2rem);
-			opacity: 0;
+			opacity: 1;
 		}
 
 			body.is-preload #intro:not(.hidden) + #header + #nav {
@@ -3446,7 +3446,7 @@ input, select, textarea {
 				-webkit-transform: translateY(4rem);
 				-ms-transform: translateY(4rem);
 				transform: translateY(4rem);
-				opacity: 0;
+				opacity: 1;
 			}
 
 		@media screen and (max-width: 980px) {
